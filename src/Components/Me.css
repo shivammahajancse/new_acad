@@ -1,0 +1,77 @@
+.me{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+.about h4,h2,h3{
+    margin: 0;
+    padding: 0.1vmin;
+}
+.headingExpi h2{
+    /* padding: 1vmin; */
+    border-bottom: 0.1vmin solid rgba(243,242,239,255);
+}
+.profileImage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 0.4vmin solid rgba(243,242,239,255);
+    /* margin: 2vmin; */
+    padding: 2vmin;
+    /* border-radius: 1vmin; */
+    /* background-color: #cadff5;
+    box-shadow: 1.3vmin 1.3vmin 1.4vmin 0.2vmin rgb(31, 30, 30); */
+
+}
+.experience{
+    padding: 2vmin;
+    /* border-bottom: 0.2vmin solid black; */
+    /* margin: 2vmin; */
+    /* border-radius: 1vmin; */
+    /* background-color: #cadff5; */
+    /* box-shadow: 1.3vmin 1.3vmin 1.4vmin 0.2vmin rgb(31, 30, 30); */
+}
+.ExperienceContent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vmin;
+}
+.experience h2,h3,h4,h5{
+    margin: 0;
+}
+.about{
+    padding: 2vmin;
+    border-bottom: 0.4vmin solid rgba(243,242,239,255);
+    /* margin: 2vmin; */
+    /* border-radius: 1vmin; */
+    /* background-color: #cadff5;
+    box-shadow: 1.3vmin 1.3vmin 1.4vmin 0.2vmin rgb(31, 30, 30); */
+}
+.aboutContent{
+    font-weight: bold;
+    margin-top: 2vmin;
+}
+.meParent{
+    margin: 13vmin;
+    margin-left: 3vmin;
+    margin-right: 3vmin;
+    border-radius: 2vmin;
+    flex: 30%;
+    padding: 1vmin;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vmin;
+    padding-right: 5vmin;
+    /* border: 0.2vmin solid black; */
+    /* box-shadow: 1.3vmin 1.3vmin 1.4vmin 0.2vmin rgb(31, 30, 30);  */
+    background-color: white;
+}
+.info{
+    margin: 1vmin;
+}
+.headingExpi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

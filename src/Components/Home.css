@@ -1,0 +1,87 @@
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addPost{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 14px -7px rgba(0,0,0,0.68);
+-webkit-box-shadow: 0px 1px 14px -7px rgba(0,0,0,0.68);
+-moz-box-shadow: 0px 1px 14px -7px rgba(0,0,0,0.68);
+    /* border: 0.3vmin solid black; */
+    /* box-shadow: 0vmin 0.5vmin 0.7vmin 0vmin rgb(31, 30, 30); */
+    border-radius: 1vmin;
+    background-color: white;
+    padding: 1vmin;
+        /* box-shadow: 0.5vmin 0.5vmin 1vmin 0vmin rgb(31, 30, 30); */
+
+    /* box-shadow: 0vmin 0.5vmin 1vmin 0vmin rgb(31, 30, 30); */
+}
+.homeParent{
+    flex: 6;
+    width: 30%;
+    height: 100vmin;
+    overflow: visible;
+}   
+.events,.interests{
+    flex: 1.7;
+    border-radius: 1vmin;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* border-bottom:0.3vmin solid black; */
+    padding: 1vmin;
+    margin-top: 1.5vmin;
+    margin-right: 2vmin;
+    margin-left: 2vmin;
+    align-self: flex-start;
+    box-shadow: 0px 1px 14px -7px rgba(0,0,0,0.68);
+-webkit-box-shadow: 0px 1px 14px -7px rgba(0,0,0,0.68);
+-moz-box-shadow: 0px 1px 14px -7px rgba(0,0,0,0.68);
+}
+.addPostBottom button{
+    color: black;
+    /* border: 2px solid black; */
+    margin: 1vmin;
+    font-weight: bold;
+}
+.addPostBottom{
+    margin: 1vmin;
+    border-top: 0.4vmin solid rgba(243,242,239,255);
+    height: 5vmin;
+}
+.addPostOne{
+    display: flex;
+    flex-direction: row;
+    margin: 1vmin;
+    align-items: center;
+}
+.indi-event{
+    display: flex;
+    /* border: 0.2vmin solid black; */
+    border-radius: 0.5vmin;
+    margin: 1vmin;
+    padding: 1vmin;
+    font-weight: 600;
+    /* background-color: #F0F7E8; */
+        /* box-shadow: 0vmin 0.5vmin 1vmin 0vmin rgb(31, 30, 30); */
+        /* box-shadow: 0.5vmin 0.5vmin 1vmin 0vmin rgb(31, 30, 30); */
+
+}
+.events h1,.interests h1{
+    margin: auto;
+    font-size:4vmin;
+}
+.grandParent{
+    margin-top: 12vmin;
+    width: 80%;
+    flex: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

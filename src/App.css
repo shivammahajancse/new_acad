@@ -1,0 +1,9 @@
+*{
+    /* font-family: "Open sans",sans-serif; */
+    font-family: 'Dongle', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+html, body, #root, .App,.header {
+    height: 100%;
+    width: 100%;
+  }
